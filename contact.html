@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marija Mihajlović - portfolio</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+       
+       
+<!-- navbar section starts  -->
+
+<nav class="navbar">
+  <a href="index.html"><i class="fas fa-home"></i> <span>Home</span> </a>
+  <a href="about.html"> <i class="fas fa-user"></i> <span>About</span> </a>
+  <a href="portfolio.html"> <i class="fas fa-briefcase"></i> <span>Portfolio</span> </a>
+  <a href="services.html"> <i class="fas fa-heart"></i> <span>Services</span> </a>
+  <a href="contact.html"> <i class="fas fa-address-book"></i> <span>Contact</span> </a>
+</nav>
+
+<!-- navbar section ends -->
+
+
+    <main>
+        <section class="block--black contact contact-page">
+            <div class="contact__left">
+              
+              <h1 class="contact__heading">Get in Touch</h1>
+             
+            </div>
+            <div class="contact__right">
+              <form class="contact-form" method="post" action="https://formspree.io/f/xpwzerzg">
+                
+                <div class="input-group">
+                  <input type="text" class="input input--black" id="first-name" name="first-name" placeholder="First Name">
+                  <input type="text" class="input input--black" id="last-name" name="last-name" placeholder="Last Name">
+                </div>
+                <input type="email" class="input input--black input--stretched" id="email" name="email" placeholder="Email">
+                <textarea name="message" id="message" rows="15" class="input input--black"></textarea>
+                <button type="submit" class="btn contact-btn">Send</button>
+              </form>
+              
+      
+            </div> 
+          </section>
+
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+      <script src="main.js"></script>
+</body>
+</html>
